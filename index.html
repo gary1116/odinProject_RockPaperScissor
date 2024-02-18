@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+            <img src="images/logo.png" alt="logo">
+            <p>Rock Paper Scissors </p>
+        </div>
+        <div class="right">
+            <a href="https://www.linkedin.com/in/gary-m-100bb01aa/" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/gary1116" target="_blank"><img src="images/github.png" alt="github"></a>
+            <a href="https://www.codingninjas.com/studio/profile/Gary11" target="_blank"><img src="images/code.png" alt="coding ninjas"></a>
+        </div>
+      </nav>
+    </header>
+    <div class="container_1">  
+        <div class="left-section">
+            <img src="images/user_logo.jpg" alt="user logo">
+            <p>Select any one:-</p>
+            <div class="buttons">
+                <button type="button" value="Rock" onclick="userValue(this)">Rock</button>
+                <button type="button" value="Paper" onclick="userValue(this)">Paper</button>
+                <button type="button" value="Scissors" onclick="userValue(this)">Scissors</button>
+            </div>
+            <p id="choice"></p>
+        </div>
+        <div class="middle-section">
+            <p id="user"></p>
+            <p id="computer"></p>
+        </div>
+        <div class="right-section">
+            <img src="images/computer_logo.png" alt="computer_logo">
+            <p id ="computer_choice"></p>
+        </div>
+    </div>
+    <div class="container_2">
+        <p id="ww"></p>
+    </div>
+    <footer>
+      <p>This is a practice project associated with The Odin Project</p>
+    </footer>
+  </body>
+</html>
